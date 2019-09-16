@@ -1,3 +1,12 @@
+html{
+    box-sizing:inherit;
+}
+
+*,*:after, *:before{
+     box-sizing: border-box;
+}
+
+
 header{
     text-align:center;
     background-color:rgb(120,120, 120);
@@ -6,25 +15,27 @@ header{
 
 section{
     background-color:rgb(48,91,85);
-    padding-top:15px;
-    padding-bottom: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-bottom:650px;
     display:inline-block;
     vertical-align: top;
     min-height:100%;
-    width:10%;
-
+    width:20%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 article{
     background-color:rgb(134,134,134);
-    padding:50px 64px;
-    height:100%;
-    width:75%;
+    padding-bottom: 650px;
+    min-height:100%;
+    width:80%;
     display:inline-block;
     vertical-align:top;
-    margin-left: 0;
+    padding-left: 35px;
+    padding-top:20px;
+    padding-right: 35px;
+    
+
     
     
 }
@@ -40,6 +51,7 @@ img{
 
 body{
     background-color:rgb(84,66,66);
+    display: block;
 }
 
 h2{
@@ -66,9 +78,13 @@ h1{
 li{
     font-size: 25px;
 }
-/**
-main{
-    height:100%;
-    margin:0 auto;
-}
-**/
+ main{
+     width:100%;
+     height:100%;
+     margin:12 auto;
+     padding-left: 300px;
+     padding-right: 300px;
+     /*padding-bottom: 300px;*/
+ }
+ 
+ 
